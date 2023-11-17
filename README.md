@@ -18,18 +18,9 @@ mc                     77824  3 smsusb,smsdvb,dvb_core
 
 $ ls -R /dev/dvb/
 /dev/dvb/:
-adapter0  adapter1  adapter2  adapter3
+adapter0  adapter1
 
 /dev/dvb/adapter0:
-demux0	dvr0  frontend0
-
-/dev/dvb/adapter1:
-demux0	dvr0  frontend0
-
-/dev/dvb/adapter2:
-demux0	dvr0  frontend0
-
-/dev/dvb/adapter3:
 demux0	dvr0  frontend0
 
 ```
