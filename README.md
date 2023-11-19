@@ -23,7 +23,7 @@ adapter0  adapter1
 /dev/dvb/adapter0:
 demux0	dvr0  frontend0
 
-## B-CAS card read install
+## B-CAS card read soft install
 $ sudo apt install -y libpcsclite-dev libccid pcscd pcsc-tools
 $ pcsc_scan
 
